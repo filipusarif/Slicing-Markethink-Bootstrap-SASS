@@ -1,0 +1,80 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@200;400;500;600;700&family=Raleway:wght@400;500;600;700&family=Roboto:wght@100;400;500;700;900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+// Setup Project
+body {
+    font-family: "Rubik", sans-serif !important;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.nav-link{
+    color: #c1c1c1;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-default{
+    transition:500ms ease;
+    background: transparent;
+}
+
+.navbar-default.scrolled{
+    background:#335546;
+}
+
+.trial {
+    width: 15%!important;
+}
+
+// Hero Section
+.Hero {
+    background-image: linear-gradient(to bottom right, #335546, #1B3729);
+    height: 100vh !important;
+}
+
+.strip {
+    width: 3rem;
+    height: 1px;
+    background-color: white;
+
+}
+
+.head {
+    font-size: 90px;
+}
+
+.desc {
+    width: 45%;
+    font-size: 130%;
+    
+}
+
+.btnHero {
+    background-color: #98AA28;
+}
+
+.btnHero:hover {
+    background-color: #D6FF7E;
+    color: #335546!important;
+}
+
+
+// brands
+.brand {
+    height: 20vh!important;
+    width: 100%;
+    background-color: #F6FBF9;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Scss/main.css">
+    <link rel="shortcut icon" href="/public/asset/logo.png" type="image/x-icon">
+    <title>Markethink</title>
+</head>
+
+<body class="">
+
+    <!-- Navbar Section -->
+    <Header class="position-fixed z-3  w-100">
+        <nav class="navbar navbar-expand-lg navbar-default   ">
+            <div class="container flex-row align-items-center">
+                <a class="navbar-brand fw-bold fs-3 text-light " href="#"><img src="/public/asset/logo.png"
+                        alt="Markethink" class="mx-2">Markethink</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav flex-row w-100  align-items-center justify-content-center ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Feature">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-secondary trial py-2 rounded-pill fs-6  ">Free
+                        Trial</button>
+                </div>
+            </div>
+        </nav>
+    </Header>
+
+    <!-- Hero Section -->
+    <section class="Hero position-relative overflow-hidden d-flex justify-content-center align-items-center " id="Hero">
+        <img src="/public/asset/pattern.svg" class="w-100 pattern position-absolute z-0 " alt="">
+        <main class=" h-100 w-100  z-1  d-flex flex-column justify-content-center align-items-center text-white ">
+            <img src="/public/asset/ellipseHero1.svg" class="position-absolute end-0 h-100 " alt="">
+            <img src="/public/asset/ellipseHero2.svg" class="position-absolute start-0 " alt="">
+            <div class="d-flex flex-row align-items-center justify-content-around gap-5  ">
+                <div class="strip"></div>
+                <p class="fw-medium fs-2 mt-3">The Best</p>
+                <div class="strip"></div>
+            </div>
+            <div class="position-relative mb-3">
+                <h1 class="head">Digital Marketing</h1>
+                <img src="/public/asset/undrlineHerro.svg" class=" position-absolute  end-0 bottom-0 " width="59%"
+                    alt="">
+            </div>
+            <p class="text-center lh-base fw-light desc mb-5">Completely synergize resource taxing relationships via
+                premier
+                niche
+                markets.
+                Professionally
+                cultivate one-to-one customer </p>
+            <button type="button" class="btn btnHero py-3 px-5 fw-medium  text-white rounded-pill ">Get Started</button>
+        </main>
+    </section>
+
+    <main class="brand d-flex flex-row justify-content-center align-items-center gap-5 ">
+        <img src="/public/asset/brands/1.svg" alt="Slack">
+        <img src="/public/asset/brands/2.svg" alt="Amazon">
+        <img src="/public/asset/brands/3.svg" alt="Logitech">
+        <img src="/public/asset/brands/4.svg" alt="Google">
+        <img src="/public/asset/brands/5.svg" alt="Facebook">
+    </main>
+
+    <section class="Feature " id="Feature">
+
+    </section>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(window).scroll(function () {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+    </script>
+</body>
+
+</html>
