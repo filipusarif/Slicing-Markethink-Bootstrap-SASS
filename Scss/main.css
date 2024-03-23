@@ -11914,4 +11914,29 @@ section {
   height: 20vh !important;
   width: 100%;
   background-color: #F6FBF9;
+}
+
+.buttonFeature {
+  color: #A3B938;
+}
+
+.text-main {
+  color: #78847D;
+}
+
+.text-dark {
+  color: #253D32;
+}
+
+.pricing {
+  background-color: #F6FBF9 !important;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+}
+
+.title {
+  width: 150px;
 }/*# sourceMappingURL=main.css.map */
