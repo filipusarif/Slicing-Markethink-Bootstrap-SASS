@@ -11939,4 +11939,17 @@ section {
 
 .title {
   width: 150px;
+}
+
+#footer {
+  min-height: 40dvh;
+  width: 100%;
+  background-color: white;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #14183E;
+  opacity: 0.15;
 }/*# sourceMappingURL=main.css.map */

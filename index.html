@@ -164,9 +164,108 @@
                 src="/public/asset/icon/arrow-right.svg" alt="" width="20px"> </a>
     </main>
 
-    <section>
-
+    <section class="container py-5 d-flex flex-column gap-4">
+        <div class="d-flex justify-content-between pt-5 ">
+            <h1 class="col-5 lh-base text-dark fs-1 fw-bold ">Read More Articles
+                From Our Blog</h1>
+            <div class="d-flex flex-row align-items-end col-5 justify-content-end  gap-5 ">
+                <p id="CW" class="fs-5 text-dark  ">Content Writing</p>
+                <p id="CM" class="fs-5 text-main">Content Marketing</p>
+            </div>
+        </div>
+        <main class="d-flex justify-content-center  gap-3 ">
+            <div class="d-flex flex-column justify-content-between align-items-start col-6 gap-2">
+                <img src="/public/asset/image/seo.svg" alt="SEO">
+                <p>AUGUST 17, 2021</p>
+                <h1 class="fw-medium fs-4 ">10 Reasons to invest in SEO copywriting services</h1>
+                <button type="button" class="btn btn-outline-warning  py-2 px-4 rounded-pill fs-6  ">Read More</button>
+            </div>
+            <div class="d-flex flex-column justify-content-between align-items-start col-3 gap-2">
+                <img src="/public/asset/image/digitalMarketing.svg" alt="SEO">
+                <p>AUGUST 17, 2021</p>
+                <h1 class="fw-medium fs-5 ">How to get hired at a top Digital Marketing</h1>
+                <p class="text-main fs-6">Agency life. We’ve all seen the photos posted on social media – the cool...
+                </p>
+                <button type="button" class="btn btn-outline-warning  py-2 rounded-pill fs-6  "><img
+                        src="/public/asset/icon/Show.svg" alt=""></button>
+            </div>
+            <div class="d-flex flex-column justify-content-between align-items-start col-3 gap-2">
+                <img src="/public/asset/image/copywriting.svg" alt="SEO">
+                <p>AUGUST 17, 2021</p>
+                <h1 class="fw-medium fs-5 ">Copywriting guidelines during the coronavirus</h1>
+                <p class="text-main fs-6">Since the coronavirus hit earlier this year, it’s hard to go anywhere...</p>
+                <button type="button" class="btn btn-outline-warning  py-2 rounded-pill fs-6  "><img
+                        src="/public/asset/icon/Show.svg" alt=""></button>
+            </div>
+        </main>
     </section>
+
+
+
+    <section class="position-relative container py-5 d-flex justify-content-center align-items-center ">
+        <img src="/public/asset/image/contactBG.svg" class="position-absolute z-0 " width="100%" alt="">
+        <main class="z-1 d-flex flex-column justify-content-start px-5 gap-4   align-items-start  ">
+            <h1 class="w-75 fw-semibold text-white fs-2 lh-base  ">Subscribe to get information, latest news and other
+                interesting
+                offers about
+            </h1>
+            <a class="navbar-brand fw-bold fs-3 text-light " href="#"><img src="/public/asset/logo.png" alt="Markethink"
+                    class="mx-2">Markethink</a>
+            <form class="d-flex gap-3 mt-3">
+                <input type="email" name="email" id="email" class="rounded-pill border-0 py-3 px-5" required
+                    placeholder="Your Email">
+                <button type="button"
+                    class="btn btnHero py-3 px-5 fw-medium  text-white rounded-pill ">Subscribe</button>
+            </form>
+        </main>
+    </section>
+
+    <footer class="container d-flex flex-column " id="footer">
+        <main class="d-flex gap-5 pb-5">
+            <div class="col-4 d-flex flex-column gap-3">
+                <a class="navbar-brand fw-bold fs-3 text-dark " href="#"><img src="/public/asset/darkLogo.svg"
+                        alt="Markethink" class="mx-2">Markethink</a>
+                <p class="text-main fs-5 lh-base ">Marketing is a company that focus on developing company’s strategy
+                    for
+                    increase
+                    digital
+                    marketing</p>
+                <div class="d-flex gap-4">
+                    <a href=""><img src="/public/asset/icon/facebook.svg" alt=""></a>
+                    <a href=""><img src="/public/asset/icon/twitter.svg" alt=""></a>
+                    <a href=""><img src="/public/asset/icon/instagram.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="col-2 d-flex flex-column gap-2  ">
+                <h2>Menu</h2>
+                <a href="" class="text-decoration-none text-main fs-6 ">Home</a>
+                <a href="" class="text-decoration-none text-main fs-6 ">Features</a>
+                <a href="" class="text-decoration-none text-main fs-6 ">Pricing About</a>
+                <a href="" class="text-decoration-none text-main fs-6 ">Contact Us</a>
+            </div>
+            <div class="col-3 d-flex flex-column gap-2 text-main">
+                <h2 class="text-dark">Services</h2>
+                <p class="m-0 ">Content Strategy</p>
+                <p class="m-0">Content Development</p>
+                <p class="m-0 ">Content Creation</p>
+                <p class="m-0 ">Content Optimazion</p>
+            </div>
+            <div class="col-3 d-flex flex-column gap-2 text-main">
+                <h2 class="text-dark">Company</h2>
+                <p class="m-0 ">Site Map</p>
+                <p class="m-0 ">Terms of Use</p>
+                <p class="m-0 ">Privacy Notice</p>
+                <p class="m-0 ">Cookies</p>
+                <p class="m-0 ">Modern Slavery </p>
+            </div>
+        </main>
+        <div class="line mb-4"></div>
+        <main class="d-flex justify-content-between align-items-center text-main mb-4 ">
+            <p class="m-0"><img src="/public/asset/icon/copyright.svg" alt=""> Copyright Markethink. All right reserved
+            </p>
+            <a href="https://www.instagram.com/gradiannn/" class="text-decoration-none text-main">Designer</a>
+        </main>
+    </footer>
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
